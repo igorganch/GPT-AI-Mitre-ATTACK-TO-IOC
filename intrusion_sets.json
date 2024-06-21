@@ -1,0 +1,96 @@
+[
+    {
+        "aliases": [
+            "CopyKittens"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "created": "2018-01-16T16:13:52.465Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.(Citation: ClearSky CopyKittens March 2017)(Citation: ClearSky Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)",
+        "name": "CopyKittens",
+        "techniques": [
+            "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
+            "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+            "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+            "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+            "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+            "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082"
+        ]
+    },
+    
+    {
+        "aliases": [
+            "Gorgon Group"
+        ],
+        "id": "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
+        "type": "intrusion-set",
+        "created": "2018-10-17T00:14:20.652Z",
+        "name": "Gorgon Group",
+        "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the United Kingdom, Spain, Russia, and the United States. (Citation: Unit 42 Gorgon Group Aug 2018)",
+        "techniques": [
+            "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
+            "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+            "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+            "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+            "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+            "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+            "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+            "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "attack-pattern--806a49c4-970d-43f9-9acc-ac0ee11e6662",
+            "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+            "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+            "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+            "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+            "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+            "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
+        ]
+    },
+    
+    {
+        "name": "APT33",
+        "description": "[APT33](https://attack.mitre.org/groups/G0064) is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors. (Citation: FireEye APT33 Sept 2017) (Citation: FireEye APT33 Webinar Sept 2017)",
+        "aliases": [
+            "APT33",
+            "HOLMIUM",
+            "Elfin"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+        "created": "2018-04-18T17:59:24.739Z",
+        "techniques": [
+            "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
+            "attack-pattern--6add2ab5-2711-4e9d-87c8-7a0be8531530",
+            "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+            "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+            "attack-pattern--8d7bd4f5-3a89-4453-9c82-2c8894d5655e",
+            "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+            "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+            "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+            "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+            "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
+            "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+            "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+            "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+            "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
+            "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
+            "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+            "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
+            "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+            "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+            "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+            "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+            "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+            "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+            "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+            "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
+            "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+            "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+            "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+            "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
+        ]
+    }]
