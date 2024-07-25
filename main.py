@@ -111,6 +111,7 @@ async def main():
     scriptToolsAnalysisFunc()
     scriptTTPAnalysisFunc()
     extractIndustry()
+    createFilesFromGithub()
 
     client = OpenAI(
         # This is the default and can be omitted
